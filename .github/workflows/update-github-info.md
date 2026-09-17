@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -28,9 +29,10 @@ Use the repository guidance and reference files available through GitHub reposit
 Use web-fetch to read external public guidance and official sources relevant to the update:
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 - Additional public guidance when it helps explain a change or context
 
-Review the relevant repository content and update `site/content/github-info.md` with concise, practical summaries of the latest GitHub developments. Keep the writing clear and useful for readers who want a quick understanding of recent GitHub updates.
+Review the relevant repository content and update `site/content/github-info.md` with concise, practical summaries of the latest GitHub developments and relevant workflow inspiration from Awesome Copilot. Keep the writing clear and useful for readers who want a quick understanding of recent GitHub updates.
 
 Open a pull request for Mona to review. Use `safe-outputs` with `create-pull-request` so the agent can propose the change without writing directly to `main`. The pull request should be focused on the GitHub Info update, include a clear Mona reference, and be ready for human review before merging.
 
